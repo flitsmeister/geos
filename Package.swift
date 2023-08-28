@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.8
 import PackageDescription
 
 let package = Package(
@@ -7,7 +7,6 @@ let package = Package(
     products: [
         .library(
             name: "geos",
-            type: .dynamic,
             targets: ["geos"]),
     ],
     targets: [
